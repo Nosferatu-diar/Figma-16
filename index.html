@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Figma-16</title>
+		<link rel="stylesheet" href="./src/output.css" />
+	</head>
+	<body>
+		<!-- header -->
+		<header class="pt-2 pb-2 bg-[#5b5729]">
+			<nav
+				class="w-[80] m-auto max-w-[1440px] flex items-center justify-between"
+			>
+				<div class="flex items-center gap-4">
+					<img src="./assets/svg/location.svg" alt="location" />
+					<p class="text-white">ТЦ Горбушка, г. Москва, ул. Барклая, 8</p>
+				</div>
+				<ul class="flex items-center gap-8 text-white">
+					<li class=""><a href="#">О компании</a></li>
+					<li class=""><a href="#">Доставка и оплата</a></li>
+					<li class=""><a href="#">Обмен и возврат</a></li>
+					<li class=""><a href="#">Гарантия и сервис</a></li>
+					<li class=""><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+		</header>
+		<header
+			class="flex justify-between w-[85%] m-auto max-w-[1440px] pt-5 items-center"
+		>
+			<img src="./assets/img/logo.png" alt="Logo" />
+			<nav class="flex flex-col gap-3">
+				<!-- top -->
+				<div class="flex items-center justify-between gap-20">
+					<div class="flex items-center">
+						<input
+							class="py-2 px-10 w-[500px] border-l-2 border-y-2 rounded-xl outline-none"
+							type="search"
+							placeholder="Поиск"
+						/>
+						<button
+							class="translate-x-[-15px] flex items-center gap-3 bg-[#3e4d31] px-6 py-[10px] rounded-xl text-white"
+						>
+							<img src="./assets/svg/search.svg" alt="" /> Найти
+						</button>
+					</div>
+					<div class="flex items-center gap-5">
+						<img src="./assets/svg/telegram.svg" alt="telegram" />
+						<img src="/assets/svg/whatsApp.svg" alt="whatsApp" />
+					</div>
+					<div class="flex items-center gap-5">
+						<img src="./assets/svg/phoneGreen.svg" alt="phone" />
+						<p class="text-lg">+7 (916) 842-34-30</p>
+					</div>
+					<div class="flex items-center gap-5">
+						<img src="./assets/svg/heart.svg" alt="heart" />
+						<img src="./assets/svg/statistic.svg" alt="statistic" />
+					</div>
+				</div>
+				<!-- bottom -->
+				<div class="flex items-center gap-10 justify-between pt-2">
+					<button
+						class="flex items-center gap-3 bg-[#3e4d31] px-6 py-[11px] rounded-xl text-white"
+					>
+						<img src="./assets/svg/burger.svg" alt="burder" /> Каталог
+					</button>
+					<ul class="flex items-center gap-14">
+						<li class="border rounded-full px-5 py-1 bg-[#f5f5f5]">
+							<a href="#">iPhone 14 Pro Макс 256</a>
+						</li>
+						<li><a href="#">Apple TV 4K 2022</a></li>
+						<li><a href="#"> Apple Watch Series Ultra</a></li>
+						<li><a href="#">MacBook Pro 14 M2</a></li>
+						<li><a href="#">iPad Pro M2</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!-- shawcase1 -->
+		<section
+			class="flex w-[85%] m-auto max-w-[1440px] pt-10 items-center gap-6"
+		>
+			<img
+				class="w-[1000px] h-[500px]"
+				src="./assets/img/баннер.png"
+				alt="баннер"
+			/>
+			<div class="flex flex-col p-5 border rounded-2xl gap-4 border-[#5b5729]">
+				<div class="flex items-center justify-between">
+					<p>Товар дня</p>
+					<div class="flex items-center gap-4">
+						<img src="./assets/svg/heart.svg" alt="heart" />
+						<img src="./assets/svg/signal.svg" alt="signal" />
+					</div>
+				</div>
+				<div class="flex items-center gap-10">
+					<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+					<img
+						class="w-full"
+						src="/assets/img/smartWatch.png"
+						alt="smartWatch"
+					/>
+					<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+				</div>
+				<p>
+					Умные часы Apple Watch SE 40 мм <br />
+					Aluminium Case, серебристый/синий омут
+				</p>
+				<div>
+					<img src="./assets/img/star5.png" alt="star5" />
+				</div>
+				<div class="flex items-center justify-between">
+					<div class="flex flex-col">
+						<p class="line-through text-[#9e9c9c]">33 990 ₽</p>
+						<p class="text-2xl font-bold">31 990 ₽</p>
+					</div>
+					<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+						Купить
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!--shawcase2  -->
+		<section
+			class="flex flex-col gap-5 w-[85%] m-auto max-w-[1440px] pt-10 pb-10 items-center"
+		>
+			<div class="flex items-center gap-10">
+				<img src="./assets/img/card1.png" alt="card" />
+				<img src="./assets/img/card2.png" alt="card" />
+				<img src="./assets/img/card3.png" alt="card" />
+			</div>
+			<div class="flex items-center gap-10">
+				<img src="./assets/img/card4.png" alt="card" />
+				<img src="./assets/img/card5.png" alt="card" />
+				<img src="./assets/img/card6.png" alt="card" />
+			</div>
+		</section>
+
+		<!-- Products -->
+		<section
+			class="flex flex-col w-[85%] m-auto max-w-[1440px] pt-20 pb-10 justify-between"
+		>
+			<p class="text-4xl pb-4">Товары</p>
+			<div class="flex items-center justify-between">
+				<ul class="flex items-center gap-10">
+					<li class="text-[#3e4d31] border-b-2 border-[#3e4d31]">
+						Лидеры продаж
+					</li>
+					<li class="text-[#3e4d31]">Новинки</li>
+					<li class="text-[#3e4d31]">Акции</li>
+				</ul>
+				<p class="text-[#3e4d31] pt-5 pb-10 flex items-center gap-3">
+					Смотреть все <img src="./assets/svg/arrowRightGreen.svg" alt="" />
+				</p>
+			</div>
+			<div class="flex items-center justify-center border">
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[336px]">
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p1.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Планшет Apple iPad Air (2022) 10.9" <br />
+						Wi-Fi 64Gb серый космос (MM9C3)
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[336px]">
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p2.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Умные часы Apple Watch Series 8 41 <br />
+						мм Aluminium Case
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">39 999 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[336px]">
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p3.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Смартфон Apple iPhone 12 4/128 ГБ, <br />
+						nano SIM+eSIM, фиолетовый
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[336px]">
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p1.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Планшет Apple iPad Air (2022) 10.9" <br />
+						Wi-Fi 64Gb серый космос (MM9C3)
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="flex items-center justify-center border">
+				<div
+					class="flex flex-col p-5 border gap-2 border-[#5b5729] h-[375px] w-[336px]"
+				>
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p1.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Беспроводные наушники Apple AirPods <br />
+						Pro 2, белый
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">21 573 ₽ ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div
+					class="flex flex-col p-5 border gap-2 border-[#5b5729] h-[375px] w-[336px]"
+				>
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p4.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						13.3" Ноутбук Apple MacBook Pro 13 <br />
+						2022 2560x1600, Apple M2
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">116 849 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div
+					class="flex flex-col p-5 border gap-2 border-[#5b5729] h-[375px] w-[336px]"
+				>
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p5.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Смартфон Apple iPhone 12 4/128 ГБ, <br />
+						nano SIM+eSIM, фиолетовый
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div
+					class="flex flex-col p-5 border gap-2 border-[#5b5729] h-[375px] w-[336px]"
+				>
+					<div class="flex items-center justify-between pb-5">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between pb-2">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p6.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Планшет Apple iPad Air (2022) 10.9" <br />
+						Wi-Fi 64Gb серый космос (MM9C3)
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- laptop -->
+		<section
+			class="relative bg-[url('../assets/img/laptop.png')] pt-[250px] pb-[250px] bg-center"
+		>
+			<p class="text-white absolute bottom-5 right-10">MacBook Pro 14 M2</p>
+		</section>
+
+		<!-- we are glade -->
+		<section
+			class="flex flex-col w-[80%] m-auto max-w-[1440px] pt-20 gap-10 items-center"
+		>
+			<p class="text-5xl">Мы рады, что вы с нами!</p>
+			<div class="flex gap-16">
+				<div class="flex flex-col gap-5">
+					<p>Магазин электроники – Gorbushka _moscow</p>
+					<p>
+						Наш магазин на рынке с 2016 года. За это <br />
+						время мы научились понимать Вас без лишних <br />
+						слов и действий!
+					</p>
+					<p>
+						В продаже различная техника: от портативных <br />
+						колонок до кастомизированной техники, которую <br />
+						сейчас попросту не найти в свободной продаже в <br />
+						России. Apple, Samsung, Xiaomi, JBL и другие <br />
+						- ТОЛЬКО ОРИГИНАЛ!
+					</p>
+				</div>
+				<div class="flex flex-col gap-5">
+					<div class="flex gap-10 border border-[#3e4d31] p-6 rounded-xl">
+						<p class="font-semibold text-3xl">
+							Наш адрес не <br />
+							меняется уже 8 лет! <br />
+							Мы находимся :
+						</p>
+						<div class="flex flex-col gap-5 justify-between">
+							<p>
+								Москва, ул. Барклая, д. 8 <br />
+								ТЦ Горбушка (старая), павильоны 108/1, 185, 140/6
+							</p>
+							<p class="flex items-center gap-3">
+								<img src="./assets/svg/oclock.svg" alt="oclock" /> Часы работы:
+								с 10:00 до 21:00 без выходных
+							</p>
+						</div>
+					</div>
+					<div class="flex items-center justify-between pt-5">
+						<img src="./assets/img/f1.png" alt="f" />
+						<img src="./assets/img/f2.png" alt="f" />
+						<img src="./assets/img/f3.png" alt="f" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- brends -->
+		<section class="pt-20 pb-20 w-[85%] m-auto max-w-[1440px]">
+			<img src="./assets/img/icons.png" alt="icon" />
+		</section>
+
+		<!-- question -->
+		<section class="flex w-[85%] m-auto max-w-[1440px] items-center">
+			<img class="pl-24" src="./assets/img/форма.png" alt="img" />
+		</section>
+		<!-- just img -->
+		<section
+			class="pt-20 pb-20 w-full m-auto gap-2 max-w-[1440px] flex flex-col relative"
+		>
+			<div class="flex items-center gap-2 relative">
+				<p class="text-xl absolute bottom-5 left-[450px]">
+					Dyson Supersonic HD07 EU
+				</p>
+				<p class="text-xl absolute bottom-5 right-[80px]">iPhone 14 Pro</p>
+				<img src="./assets/img/left.png" alt="left" />
+				<img src="./assets/img/right.png" alt="right" />
+			</div>
+			<img class="w-[1600px]" src="./assets/img/bottom.png" alt="bottom" />
+			<p class="text-white absolute bottom-24 right-20 text-xl">
+				Samsung Galaxy S23
+			</p>
+		</section>
+
+		<!-- Showed products -->
+		<section
+			class="flex flex-col w-[85%] m-auto max-w-[1440px] items-center gap-10 pb-20"
+		>
+			<p class="font-semibold text-5xl">Просмотренные товары</p>
+			<div class="flex items-center justify-center border">
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[300px]">
+					<div class="flex items-center justify-between">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p1.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Планшет Apple iPad Air (2022) 10.9" <br />
+						Wi-Fi 64Gb серый космос (MM9C3)
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[310px]">
+					<div class="flex items-center justify-between">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p2.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Умные часы Apple Watch Series 8 41 <br />
+						мм Aluminium Case
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">39 999 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[310px]">
+					<div class="flex items-center justify-between">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p3.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Смартфон Apple iPhone 12 4/128 ГБ, <br />
+						nano SIM+eSIM, фиолетовый
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+				<div class="flex flex-col p-5 border gap-2 border-[#5b5729] w-[300px]">
+					<div class="flex items-center justify-between">
+						<p class="bg-[#d2e5d2] px-3">Хит</p>
+						<div class="flex items-center gap-4">
+							<img src="./assets/svg/heart.svg" alt="heart" />
+							<img src="./assets/svg/signal.svg" alt="signal" />
+						</div>
+					</div>
+					<div class="flex items-center justify-between">
+						<img src="./assets/svg/arrowLeft.svg" alt="arrowLeft" />
+						<img class="" src="/assets/img/p1.png" alt="smartWatch" />
+						<img src="./assets/svg/arrowRight.svg" alt="arrowRight" />
+					</div>
+					<p>
+						Планшет Apple iPad Air (2022) 10.9" <br />
+						Wi-Fi 64Gb серый космос (MM9C3)
+					</p>
+					<div>
+						<img src="./assets/img/star5.png" alt="star5" />
+					</div>
+					<div class="flex items-center justify-between">
+						<div class="flex flex-col">
+							<p class="line-through text-[#9e9c9c]">62 990 ₽</p>
+							<p class="text-2xl font-bold">56 102 ₽</p>
+						</div>
+						<button class="text-white bg-[#3e4d31] px-8 py-3 rounded-lg">
+							Купить
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<section class="bg-[#5b5729] pt-10 pb-10">
+			<div
+				class="flex w-[85%] m-auto max-w-[1440px] items-center justify-between text-white"
+			>
+				<div><img src="./assets/img/logo-white.png" alt="logo" /></div>
+				<ul>
+					<li><a href="#">О компании</a></li>
+					<li><a href="#">Доставка и оплата</a></li>
+					<li><a href="#">Обмен и возврат</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">Гарантия и сервис</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Каталог</a></li>
+				</ul>
+				<ul>
+					<li class="pb-4">
+						<a href="#">
+							ТЦ Горбушка, г. <br />
+							Москва, ул. Барклая, 8</a
+						>
+					</li>
+					<li><a href="#">10:00 — 21:00 без выходных</a></li>
+				</ul>
+				<div class="flex flex-col gap-3">
+					<p class="flex items-center gap-3 justify-end">
+						<img src="./assets/svg/phoneWhite.svg" alt="" />+7 (916) 842-34-30
+					</p>
+					<p>gorbushka-moscow@yandex.ru</p>
+					<div class="flex items-center gap-2 justify-end">
+						<img src="./assets/svg/telegram.svg" alt="telegram" />
+						<img src="./assets/svg/whatsApp.svg" alt="whatsApp" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer
+			class="flex w-[85%] m-auto max-w-[1440px] items-center justify-between pt-5 pb-5"
+		>
+			<div class="flex items-center gap-10">
+				<p>© 2023 gorbushka-moscow</p>
+				<p>Политика конфиденциальности</p>
+			</div>
+			<div class="flex items-center">
+				<div>
+					<img class="w-[70%]" src="./assets/img/home.png" alt="home" />
+				</div>
+				<p>Разработка сайта <br />Студия «СТРОИМ САЙТ»</p>
+			</div>
+		</footer>
+	</body>
+</html>
